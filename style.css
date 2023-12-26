@@ -1,0 +1,49 @@
+:root{
+    --hover-color:#03A9F4
+    --navigation-color:#7D7D7D
+    --filter-color:#B4AD9E
+    --text-color:#626262
+}
+body{
+    font-family: 'Playfair Display', serif;
+    width: 936px;
+    padding: 0 15px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.filter{
+    font-family: 'Ubuntu', sans-serif;
+}
+.link-navigation{
+    color: var(--navigation-color);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.list-navigation{
+    list-style: none;
+}
+.link-navigation:hover,
+.link-navigation:focus{
+    color: var(--hover-color);
+}
+.cards{
+    list-style: none;
+    width: 420px;
+}
+.filter{
+    color: var(--filter-color);
+}
+.title-cardc{
+    color: red;
+    font-size: 30px;
+}
+.text{
+  color: var(--text-color);
+}
+.btn{
+   background-color: aliceblue;
+   border: 1px solid
+   padding: 20px 49px;
+   font 
+   color:var(--text-color);
+}
