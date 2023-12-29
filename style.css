@@ -1,9 +1,9 @@
 :root{
-    --hover-color:#03A9F4
-    --navigation-color:#7D7D7D
-    --filter-color:#B4AD9E
-    --text-color:#626262
-}
+    --hover-color:#03A9F4;
+    --navigation-color:#7D7D7D;
+    --filter-color:#B4AD9E;
+    --text-color:#626262;
+} 
 body{
     font-family: 'Playfair Display', serif;
     width: 936px;
@@ -34,7 +34,7 @@ body{
     color: var(--filter-color);
 }
 .title-cardc{
-    color: red;
+    color: var(--text-color);
     font-size: 30px;
 }
 .text{
@@ -42,8 +42,8 @@ body{
 }
 .btn{
    background-color: aliceblue;
-   border: 1px solid
+   border: 1px solid var(--text-color);
    padding: 20px 49px;
-   font 
-   color:var(--text-color);
+   font-family: 'Playfair Display', serif;
+   cursor: pointer; 
 }
