@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>photoblog</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
@@ -29,6 +31,7 @@
         </nav>
     </header>
     <main>
+        <section class="photo">
         <ul class="cards">
             <li class="item-card">
                 <img class="img-cardc" src="./img/photo1.png" alt="girl">
@@ -37,35 +40,35 @@
                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
             </li>
-            <li class="cards">
+            <li class="item-card">
                 <img class="img-cardc" src="./img/photo2.png" alt="cup">
                 <p class="filter">lifestyle</p>
                 <h2 class="title-cardc">Life tastes better with coffee</h2>
                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
             </li>
-            <li class="cards">
+            <li class="item-card">
                 <img class="img-cardc" src="./img/photo3.png" alt="two girls">
                 <p class="filter">photodiary</p>
                 <h2 class="title-cardc">American dream</h2>
                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
             </li>
-            <li class="cards">
+            <li class="item-card">
                 <img class="img-cardc" src="./img/photo4.png" alt="man">
                 <p class="filter">photodiary</p>
                 <h2 class="title-cardc">A day exploring the Alps</h2>
                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
             </li>
-            <li class="cards">
+            <li class="item-card">
                 <img class="img-cardc" src="./img/photo5.png" alt="girl with a hat">
                 <p class="filter">lifestyle</p>
                 <h2 class="title-cardc">Top 10 song for running</h2>
                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
             </li>
-            <li class="cards">
+            <li class="item-card">
                 <img class="img-cardc" src="./img/photo6.png" alt="road">
                 <p class="filter">lifestyle</p>
                 <h2 class="title-cardc">Cold winter days</h2>
@@ -73,6 +76,7 @@
                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
             </li>
         </ul>
+        </section>
         <button class="btn" type="button">load more</button>
     </main>
 </body>

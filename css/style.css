@@ -11,6 +11,19 @@ body{
     margin: 0 auto;
     font-size: 14px;
 }
+.header{
+    padding-top: 71px;
+    padding-bottom: 92px;
+}
+.photo{
+    padding-bottom: 66px;
+}
+.item-card{
+    margin-bottom: 130px;
+}
+.img-cards{
+    margin-bottom: 62px;
+}
 .filter{
     font-family: 'Ubuntu', sans-serif;
 }
@@ -18,9 +31,6 @@ body{
     color: var(--navigation-color);
     text-decoration: none;
     text-transform: uppercase;
-}
-.list-navigation{
-    list-style: none;
 }
 .link-navigation:hover,
 .link-navigation:focus{
@@ -32,10 +42,12 @@ body{
 }
 .filter{
     color: var(--filter-color);
+    margin-bottom: 32px;
 }
 .title-cardc{
     color: var(--text-color);
     font-size: 30px;
+    margin-bottom: 40px;
 }
 .text{
   color: var(--text-color);
