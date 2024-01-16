@@ -4,11 +4,14 @@
     --filter-color:#B4AD9E;
     --text-color:#626262;
 } 
-body{
-    font-family: 'Playfair Display', serif;
+.container{
     width: 936px;
     padding: 0 15px;
     margin: 0 auto;
+    border: 3px solid red;
+}
+body{
+    font-family: 'Playfair Display', serif;
     font-size: 14px;
 }
 .header{
